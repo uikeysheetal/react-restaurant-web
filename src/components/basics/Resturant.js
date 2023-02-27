@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import React, { useState } from "react";
 import "./style.css";
@@ -18,7 +19,7 @@ console.log(uniqueList);
 
 const Resturant = () => {
   const [menuData, setMenuData] = useState(Menu);
-  const [menuList, setMenuList] = useState(uniqueList);
+  const [menuList, ] = useState(uniqueList);
 
   const filterItem = (category) => {
     if (category === "All") {
