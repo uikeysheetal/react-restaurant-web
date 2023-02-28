@@ -1,9 +1,9 @@
-/* eslint-disable no-unused-vars */
+
 
 const Menu = [
     {
       id: 1,
-      image: "images/maggi.jpg",
+      images: "images/maggi.jpg",
       name: "Maggi",
       category: "breakfast",
       price: "12₹",
@@ -13,7 +13,7 @@ const Menu = [
   
     {
       id: 2,
-      image: "images/allupakoida.jpg",
+      images: "images/allupakoida.jpg",
       name: "Aalu pakoda",
       category: "evening",
       price: "20₹",
@@ -22,7 +22,7 @@ const Menu = [
     },
     {
       id: 3,
-      image: "images/pasta.jpg",
+      images: "images/pasta.jpg",
       name: "Pasta",
       category: "breakfast",
       price: "100₹",
@@ -31,7 +31,7 @@ const Menu = [
     },
     {
       id: 4,
-      image: "../images/chhole bhature.jpg",
+      images: "../images/chhole bhature.jpg",
       name: "chhola Bhatura",
       category: "lunch",
       price: "50₹",
@@ -40,7 +40,7 @@ const Menu = [
     },
     {
       id: 5,
-      image: "../images/biryani.jpg",
+      images: "../images/biryani.jpg",
       name: "Biryani",
       category: "evening",
       price: "80₹",
@@ -49,7 +49,7 @@ const Menu = [
     },
     {
       id: 6,
-      image: "../images/Tandoori-chicken-tikka.jpg",
+      images: "../images/Tandoori-chicken-tikka.jpg",
       name: "Tandoori-chicken-tikka",
       category: "dinner",
       price: "180₹",
@@ -58,7 +58,7 @@ const Menu = [
     },
     {
       id: 7,
-      image: "../images/ras malai.jpg",
+      images: "../images/ras malai.jpg",
       name: "Ras Malai",
       category: "dinner",
       price: "60₹",
@@ -67,7 +67,7 @@ const Menu = [
     },
     {
       id: 8,
-      image: "../images/Malai-Kofta.jpg",
+      images: "../images/Malai-Kofta.jpg",
       name: "Malai-Kofta",
       category: "lunch",
       price: "60₹",
@@ -76,7 +76,7 @@ const Menu = [
     },
     {
       id: 9,
-      image: "../images/samosa.jpg",
+      images: "../images/samosa.jpg",
       name: "Samasa",
       category: "evening",
       price: "10₹",
